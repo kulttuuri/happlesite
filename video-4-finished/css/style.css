@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+}
+
+#main-nav {
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 12px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#main-nav ul li a {
+  color: #D5D5D5;
+  text-decoration: none;
+  transition: 0.3s all ease;
+  font-size: 15.5px;
+}
+
+#main-nav ul li a:hover {
+  color: white;
+}
+
+#header-notification {
+  padding: 15px;
+  padding-top: 60px;
+  background: #F5F5F7;
+  text-align: center;
+}
+
+#header-notification p {
+  margin: 0px;
+}

@@ -1,0 +1,30 @@
+@media screen and (max-width: 450px) {
+  .headline.headline-iponi-img {
+    background-position-y: 250px;
+  }
+
+  .headline-50 .headline-links a {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    padding: 0px 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .headline-50 {
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+    .headline {
+      background-size: contain;
+    }
+
+    .headline.headline-50 {
+      background-position-y: 150px;
+    }
+}

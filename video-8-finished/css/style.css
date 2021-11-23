@@ -1,0 +1,136 @@
+body {
+  margin: 0px;
+}
+
+main {
+  background: #F6FAF9;
+}
+
+#main-nav {
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 12px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#main-nav ul li a {
+  color: #D5D5D5;
+  text-decoration: none;
+  transition: 0.3s all ease;
+  font-size: 15.5px;
+}
+
+#main-nav ul li a:hover {
+  color: white;
+}
+
+#header-notification {
+  padding: 15px;
+  padding-top: 60px;
+  background: #F5F5F7;
+  text-align: center;
+}
+
+#header-notification p {
+  margin: 0px;
+}
+
+.headline {
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position-x: center;
+}
+
+.headline h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  padding-top: 50px;
+  margin: 0px;
+}
+
+.headline h3 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.headline .headline-faded-text {
+  color: #86868B;
+  font-size: 1.2rem;
+  margin: 3px;
+}
+
+.headline .headline-links {
+  margin-top: 20px;
+}
+
+.headline .headline-links a {
+  color: #0066CC;
+  text-decoration: none;
+  margin: 0px 10px;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.headline.headline-iponi-img {
+  background-image: url("../images/poni.jpg");
+  background-position-y: 220px;
+}
+
+.headline.headline-iwc-img {
+  background-image: url("../images/toilet.jpg");
+  background-position-y: 30px;
+}
+
+.headline.headline-ihack-img {
+  background-image: url("../images/laptop.jpg");
+  background-position-y: bottom;
+  background-size: 100%;
+}
+
+.headline.headline-ipadding-img {
+  background-image: url("../images/mousepad.jpg");
+  background-position-y: bottom;
+  background-size: 100%;
+}
+
+.headline.headline-dark {
+  background-color: black;
+}
+
+.headline.headline-dark p,
+.headline.headline-dark h2,
+.headline.headline-dark h3 {
+  color: #FFFFFF;
+}
+
+.headline.headline-dark .headline-faded-text {
+  color: #848489;
+}
+
+.headline.headline-dark a {
+  color: #0066CC;
+}
+
+.headline-container {
+  display: flex;
+}
+
+.headline-container .headline-50 {
+  flex-basis: 50%;
+}
+
+.footer-legal-notes p {
+  color: #A5A5A9;
+  font-size: 0.9rem;
+  padding: 20px;
+}
