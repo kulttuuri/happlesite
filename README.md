@@ -1,7 +1,11 @@
 # happlesite
-This is a 10-video series about building a website. Before starting with this tutorial you should already be familiarized with HTML, CSS, and specifically Flexbox with CSS.
+This is a 10-video series about building a website. Videos for this lesson series last little over 1 hour. Before starting with this tutorial you should already be familiarized with HTML, CSS, and specifically Flexbox with CSS.
 
-In the folder ``starter_boilerplate`` you can find the the starting assets for the lessons. In each folder named as ``code_after_video2`` and so on you can find the code where I was left off on after each video.
+In the folder ``starter_boilerplate`` you can find the the starting assets for the lessons. In each folder named as ``video-2-finished`` and so on you can find the code where I was left off on after each video.
+
+## Screenshot of the Finished Website
+
+![image](https://user-images.githubusercontent.com/3810422/143020765-f74e4e11-6c77-47ac-bdb6-0b3d37fb50c1.png)
 
 ## 1 - Showing the Site
 
